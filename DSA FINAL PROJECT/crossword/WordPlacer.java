@@ -1,4 +1,3 @@
-// WordPlacer.java
 package crossword;
 
 import java.util.*;

@@ -1,4 +1,3 @@
-// GameLogic.java
 package crossword;
 
 import java.util.*;
@@ -17,7 +16,7 @@ public class GameLogic {
         }
     }
 
-    /** Attempt a guess; returns true if newly correct */
+    // attempt a guess; returns true if newly correct 
     public boolean guess(String word) {
         word = word.toUpperCase();
         if (targets.contains(word) && found.add(word)) {
